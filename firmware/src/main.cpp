@@ -67,7 +67,7 @@ Adafruit_SSD1306    display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 #define GSM_RX_PIN           16
 #define GSM_TX_PIN           17
 HardwareSerial gsmSerial(2);        // Use ESP32 UART2 for cell communication
-const char* RECIPIENT_NUMBER = ""; // Replace with your phone number for the demo
+const char* RECIPIENT_NUMBER = "";
 unsigned long lastSMSSentTime = 0;  // Debounce SMS triggers
 
 // ─── SENSOR DATA ─────────────────────────────────────────────────────────────
