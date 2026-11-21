@@ -3,7 +3,6 @@
 > [!NOTE]
 > **Executive Summary**: WaterSafe V2 is an affordable IoT monitoring system designed for early detection of industrial water contamination. By deploying a **TinyML Autoencoder** on an ESP32, the system shifts technical complexity from "expensive reagents" to "intelligent anomaly modeling." It achieves **90%+ detection accuracy** for industrial spills using only $25 of hardware.
 
-[![Research Status](https://img.shields.io/badge/Research-IIT--Internship--Target-blue.svg)](https://github.com/ssak-prods/watersafeV2)
 [![Platform](https://img.shields.io/badge/Hardware-ESP32--WROOM-red.svg)](firmware/)
 [![ML Framework](https://img.shields.io/badge/ML-TensorFlow--Lite-orange.svg)](ml/)
 
@@ -64,4 +63,4 @@ pio run --target upload
 - **[3d-viewer/](3d-viewer/)**: Vite-based digital twin for real-time hardware visualization.
 
 ---
-**Author**: [Your Name] | 6th Sem B.Tech CSE | Top 5% NPTEL AI
+**Author**: Syed Suhaib Ahmed Khair | B.E CSE | Top 5% NPTEL AI
